@@ -136,3 +136,71 @@ body{
     margin-top: 20px;
 }
 /* highlights */
+/* latest match */
+.matches{
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.matches h1{
+    font-size: 30px;
+}
+.match{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.25s;
+}
+.match:hover{
+    transform: scale(1.1,1.1);
+}
+.score{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+/* footer */
+.f-img img{
+    width: 400px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+.f-logo{
+    display: flex;
+    justify-content: center;
+}
+.circle{
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(204, 204, 204);
+    transition: background-color 0.25s;
+}
+.circle:hover{
+    background-color: gray;
+}
+
+.icon{
+    position: relative;
+    top: 4px;
+    left: 8px;
+    color: gray;
+    transition: color 0.25s;
+}
+.circle:hover i{
+    color: white;
+}
+.copyright{
+    text-align: center;
+    line-height: 30px;
+}
+/* footer */
