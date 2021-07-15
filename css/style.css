@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* c-america header start */
+.c-america-head{
+    background-color: #2D25A0;
+    overflow: hidden;
+}
+.c-america-header{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.h-text{
+    color: white;
+    font-size: 64px;
+}
+.h-left button{
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    border: none;
+    transition: background-color 0.5s, border-radius 0.5s ;
+
+}
+.h-left button:hover{
+    background-color: #3DBAFD;
+    border-radius: 0px 30px 0px 30px;
+}
+
+.h-left button a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.5s;
+}
+
+.h-img{
+    width: 556px;
+    height: 438px;
+    transition: transform 0.5s;
+}
+.h-right:hover img{
+    transform:scale(1.4,1.4) rotate(20deg) translate(-50px);
+
+}
+/* c-america header end */
