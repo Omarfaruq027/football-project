@@ -98,3 +98,18 @@ body{
     color: gray;
 }
 /* player details */
+
+/* highlights */
+.highlights-left{
+    color: black;
+}
+.highlights-left h1{
+    font-size: 48px;
+}
+.highlights-left p{
+    color: gray;
+}
+.highlights-right:hover img{
+    transform:scale(1.1,1.1);
+
+}
